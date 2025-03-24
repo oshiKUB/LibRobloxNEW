@@ -1,6 +1,6 @@
 ## Loadstring
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oshiKUB/UI/refs/heads/main/Lib.lua"))()
 ```
 
 ## Features:
@@ -16,22 +16,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/m
 
 ... more to be added.
 
-Created by [Deity#0228] and [Abstract#8007]
+Created by [oshiKUB#6948]
 
 ## Documentation
 
 ### Get the Library
 ```lua
-local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/oshiKUB/UI/refs/heads/main/Lib.lua"))()
 ```
 
 ### Create the GUI
 ```lua
-local GUI = Mercury:Create{
-    Name = "Mercury",
+local GUI = Awesome:Create{
+    Name = "Awesome",
     Size = UDim2.fromOffset(600, 400),
-    Theme = Mercury.Themes.Dark,
-    Link = "https://github.com/deeeity/mercury-lib"
+    Theme = Library.Themes.Dark,
+    Link = "https://github.com/oshiKUB/UI"
 }
 ```
 
@@ -146,7 +146,7 @@ GUI:Notification{
 ### Color Picker
 ```lua
 Tab:ColorPicker{
-	Style = Mercury.ColorPickerStyles.Legacy,
+	Style = Library.ColorPickerStyles.Legacy,
 	Callback = function(color) end
 }
 ```
@@ -157,7 +157,7 @@ GUI:Credit{
 	Name = "Creditor's name",
 	Description = "Helped with the script",
 	V3rm = "link/name",
-	Discord = "helo#1234"
+	Discord = "oshiKUB#6948"
 }
 ```
 **PLEASE NOTE THAT THE LOWER- AND UPPERCASE LETTERS DON'T MATTER WHEN CALLING LIBRARY FUNCTIONS.**
